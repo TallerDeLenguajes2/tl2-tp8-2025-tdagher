@@ -1,6 +1,6 @@
 using Microsoft.Data.Sqlite;
 
-public class ProductosRepository
+public class ProductoRepository
 {
     string cadenaDeConexion = "Data Source=Tienda.db";
     public void createProduct(Producto producto)
